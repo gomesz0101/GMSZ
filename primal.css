@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(34, 34, 34);
+}
+h1{
+     color: brown;
+cursor: pointer;
+font-size: 90px;
+justify-content: center;
+align-items: center;
+width: max-content;
+margin-left: 350px;
+border:none;
+}
+h2{
+    color: rgb(255, 255, 255);
+    margin-left: 450px;
+    font-size: 60px;
+}
+li.ttl{
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+li{
+    color: rgb(255, 43, 43);
+    font-size: 25px;
+}

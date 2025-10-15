@@ -1,0 +1,21 @@
+body{
+    background-color: brown;
+}
+h1{
+     color: #5764F1;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: italic;
+cursor: pointer;
+font-size: 90px;
+justify-content: center;
+align-items: center;
+width: max-content;
+margin-left: 500px;
+border:none;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black
+}
+li{
+   margin-left: 500px;
+   font-size: 25px;
+}

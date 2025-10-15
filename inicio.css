@@ -1,0 +1,61 @@
+body{
+    background: rgb(34, 34, 34);
+}
+h1.ttl{
+ color: brown;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: italic;
+cursor: pointer;
+font-size: 90px;
+justify-content: center;
+align-items: center;
+width: max-content;
+margin-left: 500px;
+border:none;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black
+}   
+i{
+    color:rgb(255, 255, 255);
+    font-size:40px;
+    -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black
+}
+i:hover{
+    color: rgb(255, 0, 0);
+    font-size: 45px;
+    text-decoration: none;
+    -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: rgb(255, 255, 255)
+}
+
+.projetos{
+    color: brown;
+    font-size: 50px;
+    font-family: lucida;
+}
+.projetos:hover{
+color:rgb(255, 0, 0);
+cursor:pointer;
+}  
+.prc{
+       color: brown;
+    font-size: 50px;
+    font-family: lucida;
+    margin-left: 50px;
+}
+.prc:hover{
+    color: rgb(255, 0, 0);
+}
+ul{
+    list-style-type: none;
+}
+.dc{
+       color: brown;
+    font-size: 50px;
+    font-family: lucida;
+    margin-left: 50px;
+}
+.dc:hover{
+    color: rgb(255, 0, 0);
+}

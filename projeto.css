@@ -1,0 +1,48 @@
+body{
+    background-color:rgb(34, 34, 34);
+}
+h1{
+    color: brown;
+width: max-content;
+font-size: 72px;
+position: relative;
+margin-left: 400px;
+cursor: pointer;
+justify-content: center;
+align-items: center;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black
+}
+h1::after{
+    content: "";
+position: absolute;
+bottom:-5px;
+height: 4px;
+width: 100%;
+left: 0;
+background-color: brown;
+transition: 0.3s;
+transition-timing-function: ease-in-out;
+transform: scaleX(0);
+}
+h1:hover::after{
+    transform: scaleX(1);
+}
+ul{
+    color: brown;
+    -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black;
+font-size: 50px;
+font-family: impact;
+}
+.dsc{
+    font-size: 20px;
+    -webkit-text-stroke:0px;
+}
+a{
+    color: brown;
+    -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: rgb(209, 2, 2);
+font-size: 30px;
+}
+
